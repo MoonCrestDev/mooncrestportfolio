@@ -8,7 +8,7 @@ import knowledge from "../../assets/knowledge.svg";
 import useNavBar from "../../hooks/useNavBar.tsx";
 
 export const Skills = () => {
-    const ref= useNavBar(0.3, Nav.MyKnowledge)
+    const ref = useNavBar(0.3, Nav.MyKnowledge)
     return (
         <div ref={ref} className={"flex flex-col space-y-2 justify-center"}>
             <div className={"flex flex-row space-x-2 p-4 m-4"}>
@@ -43,8 +43,8 @@ export const Skills = () => {
                     title={{icon: webIcon, title: "FULLSTACK DEVELOPMENT"}}
                     paragraph={
                         <p>
-                            Full-stack web developer proficient in <b><u>TypeScript</u></b>, <b><u>React</u></b>, and
-                            <b><u>Python</u></b> with extensive experience in building responsive web applications.
+                            Full-stack web developer proficient in <b><u>TypeScript</u></b>, <b><u>React</u></b>,
+                            and <b><u>Python</u></b> with extensive experience in building responsive web applications.
                             Skilled
                             in modern web technologies, backend development
                             using <b><u>FastAPI</u></b> and <b><u>SQLAlchemy</u></b>, and creating efficient, scalable

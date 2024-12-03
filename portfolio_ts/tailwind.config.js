@@ -8,15 +8,16 @@ export default {
             fontFamily: {
                 sans: ['"Cabin"', 'sans-serif'],
             },
-            keyframes: {
-                shine: {
-                    '0%, 100%': { transform: 'translateX(-100%)' },
-                    '50%': { transform: 'translateX(100%)' }
-                }
-            },
             animation: {
-                shine: 'shine 2s ease-in-out infinite'
-            }
+                'scroll-infinite': 'scroll 15s linear infinite',
+            },
+            keyframes: {
+                scroll: {
+                    '0%': { transform: 'translateX(0)' },
+                    '100%': { transform: 'translateX(-50%)' },
+                },
+            },
+
         },
     },
     plugins: [],
