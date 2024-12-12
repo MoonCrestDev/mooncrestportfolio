@@ -54,7 +54,7 @@ export const Skills = () => {
                         </p>
                     }
                     enterDelay={400}
-                    chips={[{title: "JAVASCRIPT/TYPESCRIPT"}, {title: "PYTHON"}, {title: "REACT"}, {title: "FAST-API"}, {title: "TAILWIND CSS"}, {title: "SQLALCHEMY"}]}
+                    chips={[{title: "JAVASCRIPT/TYPESCRIPT"}, {title: "PYTHON"}, {title: "REACT"}, {title: "FAST-API"}, {title: "TAILWIND CSS"}, {title: "SQLALCHEMY"}, {title: "DOCKER"}, {title: "GOOGLE CLOUD"}, {title: "POSTGRES"}]}
                 />
                 <Card
                     id={Nav.UI}

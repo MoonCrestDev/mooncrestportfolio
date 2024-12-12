@@ -58,17 +58,17 @@ export const Projects = () => {
                         parent={Nav.MyProjects}
                         onExpand={scrollToTarget}
                         id={Nav.Telefiles}
-                        color={ColorType.Purple}
+                        color={ColorType.Blue}
                         title={{
                             title: "TELEFILES",
                             icon: telefilesIcon
                         }}
-                        underTitle={"NOVEMBER 2024"}
+                        underTitle={"DECEMBER 2024"}
                         paragraph={<p>Telefiles is a file transfer application designed for seamless and secure sharing
                             between devices. The project integrates a FastAPI backend with a React frontend and
                             leverages
                             WebSocket connections for real-time updates.</p>}
-                        chips={[{title: "FULLSTACK DEV"}, {title: "REACT"}, {title: "FAST-API"}, {title: "UI/UX DESIGN"}, {title: "TAILWIND CSS"},]}
+                        chips={[{title: "FULLSTACK DEV"}, {title: "REACT"}, {title: "FAST-API"}, {title: "UI/UX DESIGN"}, {title: "TAILWIND CSS"},{title: "GOOGLE CLOUD"},]}
                         additionalContent={[{
                             title: "Anonymous File Sharing",
                             text: "Users can upload files without logging in and retrieve them via a unique token or QR code, with strict limits to prevent abuse."
@@ -82,10 +82,10 @@ export const Projects = () => {
                             title: "Modern Architecture",
                             text: "The application follows clean architecture principles and offers an intuitive user experience with responsive design."
                         }, {
-                            title: "Real-time Updates",
-                            text: "WebSocket connectivity keeps users informed of changes, such as new download codes, without requiring manual refreshes."
+                            title: "Made using Google Cloud APIS",
+                            text: "Using Cloud Run and Cloud Storage for secure and seamless integration."
                         },]}
-                        link={"https://telefiles.com"}
+                        link={"https://tele-files.com"}
                         presentingImage={telefilesImage}
                     />
                     <Card

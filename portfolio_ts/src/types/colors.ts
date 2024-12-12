@@ -1,5 +1,5 @@
 export enum ColorType {
-    Purple,
+    Blue,
     Green,
     Gray,
     Stone,
@@ -28,15 +28,15 @@ export const colorPalettes: Record<ColorType, Color> = {
         600: "#484646",
         700: "#000000",
     },
-    [ColorType.Purple]: {
-        50: "#F5F7FF",
-        100: "#EDF2FF",
-        200: "#D4DFFD",
-        300: "#A6C1FC",
-        400: "#7A9CF5",
-        500: "#4562B2",
-        600: "#3658B5",
-        700: "#2D4C97",
+    [ColorType.Blue]: {
+        50: "#E3F0FF",
+        100: "#f0f6ff",
+        200: "#d4e7ff",
+        300: "#66AFFF",
+        400: "#4C99FF",
+        500: "#2685F7", // Base color
+        600: "#2076E3",
+        700: "#1A6BCE",
     },
     [ColorType.Green]: {
         50: "#F9FFF9",

@@ -26,7 +26,7 @@ export const Socials = () => {
             </button>
             <button
                 onClick={() => {
-                    window.open("https://play.google.com/store/apps/dev?id=6507264270844582290", "_blank")
+                    window.open("mailto:raph@mooncrestdev.com")
                 }}
                 className={`p-4 rounded-full bg-yellow-50 hover:bg-yellow-100 transition-all duration-300 `}>
                 <Mail className={"text-yellow-700"}/>

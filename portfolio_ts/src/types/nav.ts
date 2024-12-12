@@ -28,7 +28,7 @@ export const Nav: { [key: string]: NavItem } = {
     },
     Telefiles: {
         label: "My Projects - TeleFiles",
-        color: ColorType.Purple
+        color: ColorType.Blue
     },
     Productive: {
         label: "My Projects - Product-ive",
